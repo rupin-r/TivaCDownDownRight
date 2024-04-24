@@ -14,4 +14,5 @@ An assembly implementation of an old rhythm game with Arduino communication for 
 10. Copy and paste the processsing code into Processing. Then change the com port in the processing code to the same port as the Arduino and then click play
 11. Build and load the Code Composer Studio code onto the Tiva C processor
 12. SW1 is Start, up (w) and down (s) change selections, left (a) is back, and right (s) is select
-13. Play the game!
+13. In case a pad with variable resistance is hooked up to pins D0 to D3, these pins implement an ADC to act as inputs for up, down, left, and right. Otherwise, just use WASD input.
+14. Play the game!
